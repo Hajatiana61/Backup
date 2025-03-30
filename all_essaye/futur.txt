@@ -1,0 +1,31 @@
+
+    ********** CONTINUE THE PROJECT WITH JAVA WEB **************
+
+#Server managing
+
+#AUTHENTIFICATION
+    1-captive page
+
+    All students have to login on the captive page
+
+#Source list Package ( APT / RPM )
+
+    1-All sources sources shall be in the server
+    2-Download depends got from server
+
+#APP Packing
+
+    fonctionalité de GLPI
+
+    1-the lan is free every night, so the serve shall have "cron" at night
+        to download daily necessary packs
+
+    2-Authorisation:
+        if the needed pack isn't Downloaded yet,
+            get Authorisation into server
+
+
+
+    #P.C (proxy)
+    Machine
+

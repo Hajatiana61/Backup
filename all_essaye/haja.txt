@@ -1,0 +1,49 @@
+mick@debian:~$ su
+Mot de passe : 
+root@debian:/home/mick# cd /
+root@debian:/# cd /var/www/html/
+root@debian:/var/www/html# ls
+Donne.php  index.html  inscrit.html
+root@debian:/var/www/html# cd /usr/lib/cgi-bin/mick/
+root@debian:/usr/lib/cgi-bin/mick# ls
+exemple  exemple.c
+root@debian:/usr/lib/cgi-bin/mick# cd ..
+root@debian:/usr/lib/cgi-bin# ls
+mick
+root@debian:/usr/lib/cgi-bin# cd ..
+root@debian:/usr/lib# LS
+bash: LS : commande introuvable
+root@debian:/usr/lib# LS
+bash: LS : commande introuvable
+root@debian:/usr/lib# ls
+apache2         environment.d              init                                  libsupp.a          pam.d                      sysctl.d
+apparmor        file                       ispell                                linux-boot-probes  pkgconfig                  systemd
+apt             firefox-esr                kauth                                 locale             pm-utils                   sysusers.d
+aspell          firewalld                  kernel                                lp_solve           policykit-1                tasksel
+bfd-plugins     firmware                   klibc                                 lsb                polkit-1                   terminfo
+binfmt.d        gcc                        klibc-XX6cASCB7KZyJWpIJW79y94XHBY.so  man-db             pppd                       tmpfiles.d
+bup             gimp                       libepub.so.0                          mime               pulse-16.1+dfsg1           udev
+cgi-bin         girepository-1.0           libepub.so.0.2.1                      modprobe.d         python3                    udisks2
+compat-ld       git-core                   libgnustep-base.so.1.28               modules            python3.11                 unity-settings-daemon-1.0
+console-setup   gnome-settings-daemon-3.0  libgnustep-base.so.1.28.0             modules-load.d     qt5                        valgrind
+cpp             gnupg                      libhardsid-builder.so.0               mozilla            runit-helper               X11
+cryfs           gnupg2                     libhardsid-builder.so.0.0.1           NetworkManager     sasl2                      x86_64-linux-gnu
+cups            GNUstep                    libreoffice                           openssh            sftp-server                xorg
+dbus-1.0        gold-ld                    libresid-builder.so.0                 os-prober          shim                       xserver-xorg-video-intel
+discover        groff                      libresid-builder.so.0.0.1             os-probes          software-properties
+dpkg            grub                       libsidplay2.so.1                      os-release         speech-dispatcher-modules
+emacsen-common  ifupdown                   libsidplay2.so.1.0.1                  p7zip              ssl
+root@debian:/usr/lib# cd cgi-bin/
+root@debian:/usr/lib/cgi-bin# cd mick
+root@debian:/usr/lib/cgi-bin/mick# ls
+exemple  exemple.c
+root@debian:/usr/lib/cgi-bin/mick# cd /var/www/html/
+root@debian:/var/www/html# ls
+Donne.php  index.html  inscrit.html
+root@debian:/var/www/html# cat Donne.php 
+root@debian:/var/www/html# nano Donne.php 
+root@debian:/var/www/html# nano Donne.php 
+root@debian:/var/www/html# nano Donne.php 
+root@debian:/var/www/html# nano Donne.php 
+root@debian:/var/www/html# nano Donne.php 
+root@debian:/var/www/html# 

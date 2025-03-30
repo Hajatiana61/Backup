@@ -1,0 +1,149 @@
+
+/*-------------------------*/
+/*        Lecon JS         */
+/*-------------------------*/
+
+
+Les commantaires:
+
+    // Votre coms Javascript ici
+
+    /*
+        votre 1er coms
+        votre 2eme coms
+    */
+
+Les variables:
+
+    var / let / const
+
+    Explication des variables:
+
+    #Var
+
+    function exemple(){
+        var x =  10;
+        if (true ){
+            var y = 20;
+            console.log(x);     // output 10;
+        }
+
+        console.log(y);         // output 20;
+    }
+
+    #let
+
+    function exemple(){
+        var x = 10;
+        if (true ){
+            var y = 20;
+            console.log(x);     // output 10;
+        }
+
+        console.log(y);         // Pas definis;
+    }
+
+    #const
+
+Types de données:
+
+    Number / String / Boolean / Array / Objet
+
+
+Les fonctions:
+
+    Mot clé ( "function" );
+
+Les fonctions fléchées ( Arrow functions):
+
+    fonction normale
+        function additionner(a,b){
+            return a+b;
+        }
+
+    fonction fléchée
+        const additionner = (a,b) => a+b;
+
+
+Objets:
+
+    Ce sont des structures des données
+            stocker plusieurs valeurs / fonctions
+
+    Exemple notation littérale d'objet:
+
+        let person ={
+            nom = "abcd",
+            age = 123,
+            job = "dev",
+        };
+
+    Appel : objet.Propriété  /  objet['Propriété'];
+
+Méthodes:
+
+     const objet ={
+            Propriété = valeur,
+            methode(){
+                // votre code ...
+            },
+        };
+
+
+Concaténation:
+    '+' / concat() / ${} /join()
+
+    exemple:
+    const str1 ; const str2;
+
+    const result1 = str1 + str2;
+
+    const result2 = str1.concat(str2);
+
+    const result3 = '${str1} ${str2}';
+
+Les tableaux Array:
+
+    length : renvois la long d'un tableau
+    push(): ajoute un élément à la fin du tableau
+    pop(): supprimer le dernier élément
+    join(): ...
+
+Quelque fonction et Methode:
+
+    toUpperCase() / toFixed() / Math.PI
+
+
+/*-------------------------*/
+/*           DOM           */
+/*-------------------------*/
+
+DOM: structure
+
+
+Accés aux éléments:
+
+    querySelector()
+    querySelectorAll()
+    getElementById()
+    getElementByClassName()
+    getElementByTagName()
+    getElementByTagNameNS()
+
+Manipulation du contenu:
+
+    innerHTML
+    textContent
+    createElement()
+    appendChild()
+    removeChild()
+
+Événements:
+    addEventListener()
+    removeEventListener()
+    Event
+
+
+Requetes asynchone ( XHR )
+
+
